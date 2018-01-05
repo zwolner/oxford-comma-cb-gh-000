@@ -5,7 +5,7 @@ def oxford_comma(array)
     return array.join(" and ")
   else
     last = array.pop
-    ammend = ", and #{ammend}"
+    ammend = ", and #{last}"
     returns array[0..(array.length-1)].to_a_s + ammend
   end
 end
