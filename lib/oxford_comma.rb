@@ -6,6 +6,6 @@ def oxford_comma(array)
   else
     last = array.pop
     ammend = ", and #{last}"
-    returns array[0..(array.length-1)].to_s + ammend
+    return array[0..(array.length-1)].to_s + ammend
   end
 end
